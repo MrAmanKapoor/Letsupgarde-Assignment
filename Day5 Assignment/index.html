@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS SELECTOR</title>
+  <style>
+    header {
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: blue;
+      text-shadow: 2px 2px 2px black;
+    }
+
+    .center {
+      text-align: center;
+      color: red;
+      font-weight: bold;
+      background-color: pink;
+      padding: 10px;
+      margin:2%;
+    }
+
+    .right {
+      text-align: right;
+      color: red;
+      font-weight: bold;
+      background-color: yellow;
+      padding: 10px;
+      margin:2%;
+    }
+
+    .left {
+      text-align: left;
+      color: red;
+      font-weight: bold;
+      background-color: rgb(140, 157, 189);
+      padding: 10px;
+      margin:2%;
+    }
+    .leftadvance {
+      text-align: left;
+      color: red;
+      font-weight: bold;
+      background-color: rgb(140, 157, 189);
+      padding: 10px;
+      margin:2%;
+
+    }
+    .leftadvance:hover {
+      text-align: left;
+      color: black;
+      font-weight: bold;
+      background-color: rgb(140, 189, 148);
+      
+    }
+button
+{
+  width: 20%;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:red;
+  border-radius: 10px;
+  padding: 10px;
+  margin:2%;
+}
+.btnhover{
+  width: 20%;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:red;
+  border-radius: 10px;
+  padding: 10px;
+  margin:2%;
+}
+.btnhover:hover{
+  color: Red;
+  background-color:lightyellow;
+  transition: 2s; 
+}
+.btnhover1:hover{
+  width: 25%;
+  color: Red;
+  background-color:lightyellow;
+  transition: 2s; 
+}
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <H1>The CSS Element Selector</H1>
+  </header>
+  <hr>
+  <h1> Example of CSS Selector</h1>
+  <p class="center">
+    In this example all HTML elements with class="center" will be red and center-aligned:
+  </p>
+  <p class="right">
+    In this example all HTML elements with class="Right" will be red and RIght-aligned:
+  </p>
+  <p class="left">
+    In this example all HTML elements with class="Left" will be red and left-aligned:
+  </p>
+  <p class="leftadvance">
+    In this example all HTML elements with class="leftadvance" will be red and Left-aligned and CHange a color when cursor come:
+  </p>
+
+  
+<button>Simple Button </button>
+<button class="btnhover">Button Hover Proprties</button>
+<button class="btnhover btnhover1">Button Hover Length Proprties</button>
+
+</body>
+
+</html>
